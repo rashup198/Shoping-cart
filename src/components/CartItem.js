@@ -13,16 +13,16 @@ const CartItem=({item, itemIndex})=>{
     }
 
     return(
+        <div className='flex flex-row'>
         <div>
-        <div>
-            <img src={item.image}></img>
+            <img src={item.image} className=''></img>
         </div>
-        <div>
+        <div className='flex flex-col'>
             <h1>
                 {item.title}
             </h1>
             <h1>{item.description}</h1>
-            <div>
+            <div className=' flex  flex-row justify-between'>
                 <p>{item.price}</p>
                 <div onClick={removeFromCart}>
                     <FcDeleteDatabase></FcDeleteDatabase>
