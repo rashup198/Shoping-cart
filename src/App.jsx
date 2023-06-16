@@ -9,15 +9,12 @@ import "./index.css";
 const App = () => {
   return(
   <div>
-    hello
-   <div>
+   <div className="bg-slate-900">
     <Navbar></Navbar>
    </div>
    <Routes>
     <Route path="/" element={<Home/>}></Route>
     <Route path="/cart" element={<Cart/>}></Route>
-    
-
    </Routes>
    
   </div>
