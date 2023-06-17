@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import CartItem from "../components/CartItem";
+import {FaShoppingCart} from "react-icons/fa" 
 
 
 
@@ -53,11 +54,11 @@ const Cart = () => {
 
 
     </div>) : 
-    (<div>
-      <h1>Cart Empty</h1>
+    (<div className="flex flex-col gap-y-10 h-screen items-center justify-center ">
+      <h1 className="text-6xl font-semibold absolute top-[250px]">Cart Empty</h1>
       <Link to={"/"}>
-        <button>
-          Shop Now
+        <button className="bg-blue-500 p-2 font-semibold text-xl flex rounded-md hover:bg-blue-400 hover:text-2xl transition-all duration-200 ">
+          Shop Now <span className="mt-[2px] ml-2"><FaShoppingCart className="text-xl"></FaShoppingCart></span>
         </button>
       </Link>
     </div>)
