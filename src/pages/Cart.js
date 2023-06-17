@@ -22,10 +22,10 @@ const Cart = () => {
     <div>
   {
     cart.length > 0  ? 
-    (<div>
+    (<div className="flex">
 
 
-      <div>
+      <div className=" ">
         {
           cart.map( (item,index) => {
             return <CartItem key={item.id} item={item} itemIndex={index} />
@@ -33,19 +33,19 @@ const Cart = () => {
         }
       </div>
 
-      <div>
+      <div className=" flex flex-col justify-between xs:bottom-[10px] md:bottom-[100px] sm:bottom-[100px] lg:h-[500px] lg:max-h[800px] fixed lg:right-[100px] bg-violet-600 p-10 mt-3 rounded-xl">
 
-        <div>
-          <div>Your Cart</div>
-          <div>Summary</div>
-          <p>
-            <span>Total Items: {cart.length}</span>
+        <div className="mt-[20px]">
+          <div className="text-xl text-green-400 font-bold">Your Cart</div>
+          <div className="text-4xl text-green-400 font-semibold ">Summary</div>
+          <p className="mt-4">
+            <span className="text-xl font-bold ">Total Items: {cart.length}</span>
           </p>
         </div>
 
         <div>
-          <p>Total Amount: ${totalAmount}</p>
-          <button>
+          <p className="text-xl font-bold">Total Amount: ${Math.round(totalAmount)}</p>
+          <button className=" bg-red-500 p-2 text-center ml-[20px] mt-[10px] text-white text-xl font-semibold hover:bg-red-400 transition-all duration-200 rounded-md">
             CheckOut Now
           </button>
         </div>
