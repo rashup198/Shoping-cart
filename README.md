@@ -26,6 +26,11 @@ By combining the power of JavaScript, React, Tailwind CSS, and API integration, 
 ![image](https://github.com/rashup198/Shoping-cart/assets/88549100/460a408f-5561-4eef-995b-707979fd4a71)
 
 
+# Preview when cart is empty
+
+![image](https://github.com/rashup198/Shoping-cart/assets/88549100/8ac1477d-ac36-485d-9740-ddeac7de6db2)
+
+
 The shopping cart project leverages the capabilities of JavaScript to handle the logic and interactivity of the application. JavaScript allows for dynamic updates to the cart, such as calculating the total price based on the selected items and adjusting quantities accordingly. It also enables smooth transitions and animations, enhancing the user experience.
 
 React, a powerful JavaScript library, is utilized to build the user interface components. React's component-based architecture promotes code reusability, making it easier to manage and maintain the application. Components such as product cards, the shopping cart display, and the checkout process are modularized, ensuring a clean and organized codebase.
