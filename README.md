@@ -15,3 +15,11 @@ Real-time Cart Updates: As users add items to their cart, the application instan
 Product Information: Each product in the shop includes essential details like name, description, price, and images, allowing users make informed purchasing decisions.
 Responsive Design: The application is designed to be responsive, ensuring a consistent and enjoyable shopping experience across various devices and screen sizes.
 By combining the power of JavaScript, React, Tailwind CSS, and API integration, this shopping cart project offers a robust and user-friendly solution for managing online purchases. Whether you're building an e-commerce platform or simply exploring web development techniques, this project serves an excellent example of modern web application development.
+
+#preview
+
+![image](https://github.com/rashup198/Shoping-cart/assets/88549100/13e4605a-6c68-4163-957f-d6761f19aa3f)
+
+
+
+
